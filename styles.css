@@ -1,0 +1,157 @@
+body {
+    background-image: url('underwater7.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.center-box {
+    
+    left: 58%; 
+    width: 28vh; 
+    height: 28vw;
+    position: relative;
+    
+}
+
+.center-box img {
+    height: 90%; 
+    width: auto; 
+    display: block; 
+    border: 2px solid black; 
+    border-radius: 8px;
+    box-shadow: 8px 10px 6px rgba(0, 0, 0, 0.507);
+}
+
+h1 {
+    position: absolute;
+    height: auto;
+    width: 100Vh;
+    left: 5%;
+    top: 1px;
+    font-size: 7vw;
+    animation: animateShadow 6s infinite ease-in-out;
+    
+}
+header {
+
+    position: relative;
+    background-color: #ffffff3b;
+    color: #000000;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.363);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000; 
+    height: 95%;
+    width: 83%;
+    margin: 20px;
+    text-shadow: 2px 3px 2px rgba(254, 255, 207, 0.384);
+
+}
+
+.enoki img {
+    height: 30vw; 
+    width: auto; 
+    display: block; 
+    border: 2px solid black; 
+    border-radius: 8px;
+    box-shadow: 8px 10px 6px rgba(0, 0, 0, 0.507);
+}
+
+@keyframes animateShadow {
+    0% {
+        text-shadow: 15px 0px 10px rgba(255, 255, 255, 0.95);
+    }
+    25% {
+        text-shadow: 0px 15px 10px rgba(255, 255, 255, 0.95);
+    }
+    50% {
+        text-shadow: -15px 0px 10px rgba(255, 255, 255, 0.95);
+    }
+    75% {
+        text-shadow: 0px -15px 10px rgba(255, 255, 255, 0.95);
+    }
+    100% {
+        text-shadow: 15px 0px 10px rgba(255, 255, 255, 0.95);
+    }
+}
+
+ul {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    left: 8vh;
+    top: 15vw;
+    font-size: 4vw;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right:  1px;
+    
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    transition: font-size 0.4s ease;
+    
+}
+
+nav ul li a:hover {
+    color: #2c3e46;
+    font-size: 1.2em;
+    transition: font-size 0.3s ease;
+}
+
+
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ffffff3f;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.603);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px; 
+    color: #000000; 
+    text-shadow: 1.5px 2px 1px rgba(254, 255, 207, 0.384);
+}
+
+#projects{
+    text-align:right;
+    padding-right: 25vw;
+    margin: 45px;
+    
+}
+
+hr {
+    border: none; 
+    height: 3px; 
+    background-color: #000000a6; 
+    margin: 20px 0;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 30px;
+        margin: 10px;
+    }
+}
